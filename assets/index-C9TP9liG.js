@@ -278,4 +278,4 @@ Error generating stack: `+o.message+`
         width: 40px;
         height: 40px;
     }
-`,dg=()=>Me.jsxs("div",{children:[Me.jsx(Y1,{}),Me.jsxs("main",{children:[Me.jsx(ng,{}),Me.jsx(og,{})]}),Me.jsx(eg,{})]});function pg(){return Me.jsx(mv,{children:Me.jsx("div",{className:"App",children:Me.jsx(dv,{children:Me.jsx(v0,{path:"/",element:Me.jsx(dg,{})})})})})}a0(document.getElementById("root")).render(Me.jsx(K.StrictMode,{children:Me.jsx(pg,{})}));
+`,dg=()=>Me.jsxs("div",{children:[Me.jsx(Y1,{}),Me.jsxs("main",{children:[Me.jsx(ng,{}),Me.jsx(og,{})]}),Me.jsx(eg,{})]});function pg(){return Me.jsx(mv,{basename:"/my-portfolio",children:Me.jsx("div",{className:"App",children:Me.jsx(dv,{children:Me.jsx(v0,{path:"/",element:Me.jsx(dg,{})})})})})}a0(document.getElementById("root")).render(Me.jsx(K.StrictMode,{children:Me.jsx(pg,{})}));
