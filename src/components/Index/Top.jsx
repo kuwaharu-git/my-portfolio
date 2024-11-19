@@ -5,7 +5,7 @@ import breakpoints from '../../breakpoints';
 export const Top = () => {
     return (
         <TopWrapper id='top'>
-                {/* <ImageIcon src='/my-portfolio/icon.png'></ImageIcon> */}
+                {/* <ImageIcon src='/icon.png'></ImageIcon> */}
                 <TopTitle>kuwaharu's Portfolio</TopTitle>
         </TopWrapper>
     );

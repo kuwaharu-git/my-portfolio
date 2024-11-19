@@ -4,7 +4,7 @@ import Index from './pages/Index';  // Index.jsx をインポート
 
 function App() {
   return (
-    <Router basename="/my-portfolio">
+    <Router>
       <div className="App">
         {/* ルートパス '/' で Index コンポーネントを表示 */}
         <Routes>
