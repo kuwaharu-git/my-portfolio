@@ -278,4 +278,4 @@ Error generating stack: `+o.message+`
         width: 40px;
         height: 40px;
     }
-`,dg=()=>Te.jsxs("div",{children:[Te.jsx(Y1,{}),Te.jsxs("main",{children:[Te.jsx(ng,{}),Te.jsx(og,{})]}),Te.jsx(eg,{})]});function pg(){return Te.jsx(g0,{children:Te.jsx("div",{className:"App",children:Te.jsx(pv,{children:Te.jsx(v0,{path:"/",element:Te.jsx(dg,{})})})})})}a0(document.getElementById("root")).render(Te.jsx(React.StrictMode,{children:Te.jsx(g0,{basename:"/リポジトリ名",children:Te.jsx(pg,{})})}));
+`,dg=()=>Te.jsxs("div",{children:[Te.jsx(Y1,{}),Te.jsxs("main",{children:[Te.jsx(ng,{}),Te.jsx(og,{})]}),Te.jsx(eg,{})]});function pg(){return Te.jsx(g0,{children:Te.jsx("div",{className:"App",children:Te.jsx(pv,{children:Te.jsx(v0,{path:"/",element:Te.jsx(dg,{})})})})})}a0(document.getElementById("root")).render(Te.jsx(React.StrictMode,{children:Te.jsx(g0,{basename:"/my-portfolio",children:Te.jsx(pg,{})})}));
