@@ -15,13 +15,13 @@ class Burger extends React.Component {
         <a id="menu-profile" style={styles.bmItemListLink} href="/#profile">
           PROFILE
         </a>
-        <a id="menu-journey" style={styles.bmItemListLink} href="/journey">
+        <a id="menu-journey" style={styles.bmItemListLink} href="/#journey">
         JOURNEY
         </a>
-        <a id="menu-skill" style={styles.bmItemListLink} href="/skill">
+        <a id="menu-skill" style={styles.bmItemListLink} href="/#skill">
         SKILL
         </a>
-        <a id="menu-study" style={styles.bmItemListLink} href="/study">
+        <a id="menu-study" style={styles.bmItemListLink} href="/#study">
         STUDY
         </a>
         <a id="menu-blog" style={styles.bmItemListLink} href="https://tech.kuwaharu.com" target='_blank'>
