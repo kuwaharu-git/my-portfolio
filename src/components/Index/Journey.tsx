@@ -47,6 +47,7 @@ export const Journey = () => {
 // 全体のラッパー（背景色と全体の配置）
 const JourneyWrapper = styled.div`
     background-color: #C8E0F5;
+    padding-top: 100px;
 `;
 
 // タイトルスタイル
@@ -55,6 +56,8 @@ const Title = styled.h1`
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    margin: 0;
+    margin-bottom: 50px;
 
     // モバイル画面サイズ対応
     @media (max-width: ${breakpoints.mobile}) {
