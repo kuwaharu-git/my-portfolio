@@ -61,6 +61,7 @@ const HeaderWrapper = styled.header`
     display: flex;
     align-items: center;
     opacity: 0.8;
+    z-index: 1000; /* 一番上に表示 */
 `;
 
 const ImageIcon = styled.img`
@@ -103,6 +104,7 @@ const MobileHeaderWrapper = styled.header`
     opacity: 0.8;
     padding: 0;
     width: 100%;
+    z-index: 1000; /* 一番上に表示 */
 `;
 
 const MobileIconImage = styled.img`
