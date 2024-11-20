@@ -55,7 +55,7 @@ const Title = styled.h1`
 const Contents = styled.div`
     display: flex;
     align-items: center;
-    height: 50%;
+    // height: 50%;
     width: 100%;
     max-width: 1300px;　// 画像と文章の最大幅を指定
     margin-bottom: 10vh;
@@ -67,6 +67,7 @@ const Contents = styled.div`
 
 const ImageIcon = styled.img`
     width: 40%;
+    max-width: 400px;
     height: auto;
     border-radius:50%;
     background-color: #FFFFFF;
@@ -79,13 +80,13 @@ const ImageIcon = styled.img`
 
 
 const Sentence = styled.p`
-    font-size: 32px;
+    font-size: 28px;
     color: #000000;
     text-align: justify;
     width: 60%;
 
     @media (max-width: ${breakpoints.mobile}) {
-        font-size: 24px;
+        font-size: 20px;
         width: 100%;
         max-width: 520px;
     }
