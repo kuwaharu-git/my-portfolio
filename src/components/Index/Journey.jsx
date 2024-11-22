@@ -13,7 +13,7 @@ const timelineData = [
   { date: '2024-4', content: 'ドロカツ全国大会\n自律飛行スキルクラス優勝' },
   { date: '2024-5', content: 'paiza Aランク獲得' },
   { date: '2024-7', content: '応用情報技術者試験合格' },
-  { date: '2024-5', content: '自動運転AIチャレンジ予選敗退' },
+  { date: '2024-9', content: '自動運転AIチャレンジ予選敗退' },
 ]
 
 // メインコンポーネント
