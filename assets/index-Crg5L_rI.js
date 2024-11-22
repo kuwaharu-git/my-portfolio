@@ -288,7 +288,7 @@ Error generating stack: `+o.message+`
     }
 `,f4=[{date:"2022-11",content:"Javascriptを初めて触る"},{date:"2023-3",content:"ITパスポート合格"},{date:"2023-4",content:`専門学校入学
 Python, MySQLを初めて触る`},{date:"2023-6",content:"paiza Bランク獲得"},{date:"2023-9",content:"Javaを初めて触る"},{date:"2023-12",content:"基本情報技術者試験合格"},{date:"2024-4",content:`ドロカツ全国大会
-自律飛行スキルクラス優勝`},{date:"2024-5",content:"paiza Aランク獲得"},{date:"2024-7",content:"応用情報技術者試験合格"},{date:"2024-5",content:"自動運転AIチャレンジ予選敗退"}],d4=()=>ot(p4,{id:"journey",children:[ie(h4,{children:"My Engineering Journey"}),ot(m4,{children:[ie(v4,{}),ie(g4,{children:f4.map((e,t)=>ot(y4,{children:[ot(w4,{children:[ot(x4,{children:[e.date.split("-")[0],"年"]}),ot(S4,{children:[e.date.split("-")[1],"月"]})]}),ie(E4,{}),ie(C4,{children:e.content})]},t))})]})]}),p4=Se.div`
+自律飛行スキルクラス優勝`},{date:"2024-5",content:"paiza Aランク獲得"},{date:"2024-7",content:"応用情報技術者試験合格"},{date:"2024-9",content:"自動運転AIチャレンジ予選敗退"}],d4=()=>ot(p4,{id:"journey",children:[ie(h4,{children:"My Engineering Journey"}),ot(m4,{children:[ie(v4,{}),ie(g4,{children:f4.map((e,t)=>ot(y4,{children:[ot(w4,{children:[ot(x4,{children:[e.date.split("-")[0],"年"]}),ot(S4,{children:[e.date.split("-")[1],"月"]})]}),ie(E4,{}),ie(C4,{children:e.content})]},t))})]})]}),p4=Se.div`
     background-color: #C8E0F5;
     padding-top: 100px;
 `,h4=Se.h1`
