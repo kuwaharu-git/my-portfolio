@@ -9,7 +9,7 @@ export const Top = () => {
         <MySkillsSwiper />
         <ContentWrapper>
           <TopTitle>kuwaharu's Portfolio</TopTitle>
-          {/* <ImageIcon src='/icon.png'></ImageIcon> */}
+          {/* <ImageIcon src='/icon.svg'></ImageIcon> */}
         </ContentWrapper>
       </TopWrapper>
     );

@@ -25,7 +25,7 @@ const Header = () => {
 export const DesktopHeader = () => {
     return (
         <HeaderWrapper>
-            <ImageIcon src="/icon.png" />
+            <ImageIcon src="/icon.svg" />
             <Nav>
                 <NavLink href="/#top">Top</NavLink>
                 <NavLink href="/#profile">Profile</NavLink>
@@ -42,7 +42,7 @@ export const DesktopHeader = () => {
 export const MobileHeader = () => {
     return (
         <MobileHeaderWrapper>
-            <MobileIconImage src="/icon.png" />
+            <MobileIconImage src="/icon.svg" />
             <Burger />
         </MobileHeaderWrapper>
     );
@@ -68,6 +68,7 @@ const ImageIcon = styled.img`
     width: 83px;
     height: 83px;
     border-radius: 50%;
+    background-color: #FFFFFF;
 `;
 
 const Nav = styled.nav`
@@ -116,6 +117,7 @@ const MobileIconImage = styled.img`
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    background-color: #FFFFFF;
 
 `;
 export default Header;

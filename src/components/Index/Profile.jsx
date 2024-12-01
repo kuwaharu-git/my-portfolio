@@ -7,7 +7,7 @@ export const Profile = () => {
         <ProfileWrapper id='profile'>
             <Title>About me</Title>
             <Contents>
-                <ImageIcon src='/icon.png'></ImageIcon>
+                <ImageIcon src='/icon.svg'></ImageIcon>
                 <Sentence>システムエンジニアになるために色々勉強中の学生です。主に使用している言語はPythonで、Fast APIやDjangoを使用したバックエンド開発、ドローンの自立飛行、OR-Toolsを使用したシフト自動作成など色々チャレンジしています。他にもReactを使用したフロントエンド開発、LinuxやAWSなどのインフラ系なども学習しています。</Sentence>
             </Contents>
             <SnsUl>
