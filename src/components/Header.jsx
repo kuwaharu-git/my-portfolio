@@ -25,7 +25,7 @@ const Header = () => {
 export const DesktopHeader = () => {
     return (
         <HeaderWrapper>
-            <ImageIcon src="/icon.svg" />
+            <ImageIcon src="/icon.svg" alt='icon image'/>
             <Nav>
                 <NavLink href="/#top">Top</NavLink>
                 <NavLink href="/#profile">Profile</NavLink>
@@ -42,7 +42,7 @@ export const DesktopHeader = () => {
 export const MobileHeader = () => {
     return (
         <MobileHeaderWrapper>
-            <MobileIconImage src="/icon.svg" />
+            <MobileIconImage src="/icon.svg" alt='icon image'/>
             <Burger />
         </MobileHeaderWrapper>
     );
