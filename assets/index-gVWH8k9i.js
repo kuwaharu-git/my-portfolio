@@ -294,7 +294,7 @@ Error generating stack: `+o.message+`
     }
 `,X3=[{date:"2022-11",content:"Javascriptを初めて触る"},{date:"2023-3",content:"ITパスポート合格"},{date:"2023-4",content:`専門学校入学
 Python, MySQLを初めて触る`},{date:"2023-6",content:"paiza Bランク獲得"},{date:"2023-9",content:"Javaを初めて触る"},{date:"2023-12",content:"基本情報技術者試験合格"},{date:"2024-4",content:`ドロカツ全国大会
-自律飛行スキルクラス優勝`},{date:"2024-5",content:"paiza Aランク獲得"},{date:"2024-7",content:"応用情報技術者試験合格"},{date:"2024-9",content:"自動運転AIチャレンジ予選敗退"}],Q3=()=>Qe(K3,{id:"journey",children:[fe(Z3,{children:"My Engineering Journey"}),Qe(J3,{children:[fe(e4,{}),fe(t4,{children:X3.map((e,t)=>Qe(n4,{children:[Qe(r4,{children:[Qe(i4,{children:[e.date.split("-")[0],"年"]}),Qe(o4,{children:[e.date.split("-")[1],"月"]})]}),fe(s4,{}),fe(l4,{children:e.content})]},t))})]})]}),K3=we.div`
+自律飛行スキルクラス優勝`},{date:"2024-5",content:"paiza Aランク獲得"},{date:"2024-7",content:"応用情報技術者試験合格"},{date:"2024-9",content:"自動運転AIチャレンジ予選敗退"},{date:"2024-12",content:"情報処理安全確保支援士試験合格"}],Q3=()=>Qe(K3,{id:"journey",children:[fe(Z3,{children:"My Engineering Journey"}),Qe(J3,{children:[fe(e4,{}),fe(t4,{children:X3.map((e,t)=>Qe(n4,{children:[Qe(r4,{children:[Qe(i4,{children:[e.date.split("-")[0],"年"]}),Qe(o4,{children:[e.date.split("-")[1],"月"]})]}),fe(s4,{}),fe(l4,{children:e.content})]},t))})]})]}),K3=we.div`
     background-color: #C8E0F5;
     padding-top: 100px;
 `,Z3=we.h1`
