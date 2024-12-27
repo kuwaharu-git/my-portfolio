@@ -14,6 +14,7 @@ const timelineData = [
   { date: '2024-5', content: 'paiza Aランク獲得' },
   { date: '2024-7', content: '応用情報技術者試験合格' },
   { date: '2024-9', content: '自動運転AIチャレンジ予選敗退' },
+  { date: '2024-12', content: '情報処理安全確保支援士試験合格' },
 ]
 
 // メインコンポーネント
