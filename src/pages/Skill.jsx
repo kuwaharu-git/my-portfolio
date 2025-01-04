@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Header from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Qualification } from '../components/Skill/Qualification';
+import { Technical } from '../components/Skill/Technical';
 
 const Skill = () => {
     return (
@@ -15,6 +16,7 @@ const Skill = () => {
                         Skill
                     </TitleWrapper>
                     <Qualification />
+                    <Technical />
                 </SkillWrapper>
             </main>
             <Footer />
