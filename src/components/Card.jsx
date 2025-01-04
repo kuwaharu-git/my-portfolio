@@ -1,13 +1,31 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
 
+// 説明文のスタイル
+export const Description = styled.div`
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    width: 254px;
+    margin: 0 auto;
+    white-space: pre-line;   // 改行を反映
+`;
+
+export const DescriptionUl = styled.ul`
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    padding-left: 20px;
+`;
+
+// カードコンポーネント
 export const Card = ({title, imgUrl, igmAlt, description}) => {
     return (
         <CardWrapper>
             <CardTitle>{title}</CardTitle>
-            <CardImage src={imgUrl} alt={igmAlt}/>
+            {imgUrl && <CardImage src={imgUrl} alt={igmAlt} />}
             <Delimiter />
-            <CardText>{description}</CardText>
+            {description}  {/* 説明文はjsxで受け取る */}
         </CardWrapper>
     );
 }
@@ -28,8 +46,10 @@ const CardTitle = styled.h3`
     color: #000;
     text-align: center;
     width: 100%;
-    height: 2em;
+    line-height: 1.2;
+    height: calc(1.2em * 2);;
     margin: 20px 0;
+    white-space: pre-line;   // 改行を反映
 `;
 
 const Delimiter = styled.hr`
@@ -47,10 +67,3 @@ const CardImage = styled.img`
     margin: 0 auto;
 `;
 
-const CardText = styled.p`
-    font-size: 16px;
-    color: #000;
-    text-align: left;
-    width: 254px;
-    margin: 0 auto;
-`;
