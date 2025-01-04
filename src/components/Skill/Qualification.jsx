@@ -2,6 +2,7 @@
 import styled from '@emotion/styled';
 import { Card } from '../Card';
 import { qualifications } from './qualificationData';
+import { TitleWrapper, CardsWrapper } from './skillCommonStyles';
 
 
 export const Qualification = () => {
@@ -20,21 +21,5 @@ export const Qualification = () => {
 }
 
 
-const TitleWrapper = styled.h1`
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font-size: 40px;
-    font-weight: bold;
-    color: #000000;
-    margin: 30px 0;
-`;
 
-const CardsWrapper = styled.ul`
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-`;
 
