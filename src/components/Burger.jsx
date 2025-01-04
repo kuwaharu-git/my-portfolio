@@ -1,5 +1,6 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom'; 
 
 class Burger extends React.Component {
   showSetting(event) {
@@ -18,9 +19,9 @@ class Burger extends React.Component {
         <a id="menu-journey" style={styles.bmItemListLink} href="/#journey">
         JOURNEY
         </a>
-        <a id="menu-skill" style={styles.bmItemListLink} href="/skill">
+        <Link id="menu-skill" style={styles.bmItemListLink} to="/skill">
         SKILL
-        </a>
+        </Link>
         <a id="menu-study" style={styles.bmItemListLink} href="/#study">
         STUDY
         </a>

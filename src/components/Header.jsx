@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import Burger from './Burger';
+import { Link } from 'react-router-dom'; // Link は NavLink と同じように使えるが、NavLink を利用します
 
 // メインコンポーネント
 const Header = () => {
@@ -27,12 +28,12 @@ export const DesktopHeader = () => {
         <HeaderWrapper>
             <ImageIcon src="/icon.svg" alt='icon image'/>
             <Nav>
-                <NavLink href="/#top">Top</NavLink>
-                <NavLink href="/#profile">Profile</NavLink>
-                <NavLink href="#journey">Journey</NavLink>
-                <NavLink href="/skill">Skill</NavLink>
-                <NavLink href="#study">Study</NavLink>
-                <NavLink href="https://tech.kuwaharu.com" target="_blank">Blog</NavLink>
+                <NavA href="/#top">Top</NavA>
+                <NavA href="/#profile">Profile</NavA>
+                <NavA href="/#journey">Journey</NavA>
+                <NavLink to="/skill">Skill</NavLink>
+                <NavA href="/#study">Study</NavA>
+                <NavA href="https://tech.kuwaharu.com" target="_blank">Blog</NavA>
             </Nav>
         </HeaderWrapper>
     );
@@ -80,8 +81,21 @@ const Nav = styled.nav`
         gap: 15px;
     }
 `;
+const NavA = styled.a`  // ここを Link に変更
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
 
-const NavLink = styled.a`
+    &:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 1057px) {
+        font-size: 20px;
+    }
+`;
+
+const NavLink = styled(Link)`  // ここを Link に変更
     color: white;
     text-decoration: none;
     font-size: 36px;
