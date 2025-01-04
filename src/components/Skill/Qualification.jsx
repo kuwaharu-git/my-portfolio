@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
 import { Card } from '../Card';
-import { qualifications } from './qualifications';
+import { qualifications } from './qualificationData';
 
 
 export const Qualification = () => {
