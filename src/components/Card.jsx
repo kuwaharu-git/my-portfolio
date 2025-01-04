@@ -19,11 +19,11 @@ export const DescriptionUl = styled.ul`
 `;
 
 // カードコンポーネント
-export const Card = ({title, imgUrl, igmAlt, description}) => {
+export const Card = ({title, siteUrl, imgUrl, igmAlt, description}) => {
     return (
         <CardWrapper>
             <CardTitle>{title}</CardTitle>
-            {imgUrl && <CardImage src={imgUrl} alt={igmAlt} />}
+            {imgUrl && <a href={siteUrl}><CardImage src={imgUrl} alt={igmAlt} /></a>}
             <Delimiter />
             {description}  {/* 説明文はjsxで受け取る */}
         </CardWrapper>
@@ -35,7 +35,7 @@ const CardWrapper = styled.li`
     background-color: #FFFFFF;
     border-radius: 30px;
     width: 284px;
-    height: 387px;
+    height: 450px;
     border: 8px solid #454E5A;
     list-style: none;
     margin: 20px 45px 20px 0;
@@ -65,5 +65,6 @@ const CardImage = styled.img`
     height: 134px;
     display: block;
     margin: 0 auto;
+    object-fit: contain;
 `;
 
