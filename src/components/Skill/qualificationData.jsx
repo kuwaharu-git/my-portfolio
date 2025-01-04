@@ -1,7 +1,7 @@
 import { Description, DescriptionUl } from "../Card";
 
 
-export const qualifications = {
+export const qualificationsData = {
     "ITパスポート": {"description": (<Description>
         独学で勉強し2023年3月に合格<br />
         結果詳細

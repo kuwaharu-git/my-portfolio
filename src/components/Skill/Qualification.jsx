@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
 import { Card } from '../Card';
-import { qualifications } from './qualificationData';
+import { qualificationsData } from './qualificationData';
 import { TitleWrapper, CardsWrapper } from './skillCommonStyles';
 
 
@@ -12,7 +12,7 @@ export const Qualification = () => {
             合格したIT関連試験
             </TitleWrapper>
             <CardsWrapper>
-                {Object.entries(qualifications).map(([title, contents], index) => (
+                {Object.entries(qualificationsData).map(([title, contents], index) => (
                     <Card key={index} title={title} description={contents.description} />
                 ))}
             </CardsWrapper>
