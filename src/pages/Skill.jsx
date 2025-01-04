@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Qualification } from '../components/Skill/Qualification';
 import { Technical } from '../components/Skill/Technical';
+import breakpoints from '../breakpoints';
 
 const Skill = () => {
     return (
@@ -40,6 +41,8 @@ const TitleWrapper = styled.h1`
     font-weight: bold;
     color: #000000;
     margin: 30px 0;
+    @media (max-width: ${breakpoints.mobile}) {
+      font-size: 42px;
 `;
 
 export default Skill;

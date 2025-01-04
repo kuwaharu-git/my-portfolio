@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
+import breakpoints from '../../breakpoints';
 
 export const TitleWrapper = styled.h1`
     box-sizing: border-box;
@@ -9,6 +10,9 @@ export const TitleWrapper = styled.h1`
     font-weight: bold;
     color: #000000;
     margin: 30px 0;
+    @media (max-width: ${breakpoints.mobile}) {
+      font-size: 30px;
+    }
 `;
 
 export const CardsWrapper = styled.ul`
