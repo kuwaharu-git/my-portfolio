@@ -1,38 +1,30 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
 import { Card } from '../Card';
+import { qualifications } from './qualifications';
+
 
 export const Qualification = () => {
     return (
-        <QualificationsWrapper>
+        <>
             <TitleWrapper>
-                資格
+            合格したIT関連試験
             </TitleWrapper>
             <CardsWrapper>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {Object.entries(qualifications).map(([title, contents], index) => (
+                    <Card key={index} title={title} description={contents.description} />
+                ))}
             </CardsWrapper>
-        </QualificationsWrapper>
+        </>
     );
 }
 
-const QualificationsWrapper = styled.div`
-    box-sizing: border-box;
-    background-color: #DBE0E4;
-    width: 100%;
-    padding: 100px 20px;
-
-`;
 
 const TitleWrapper = styled.h1`
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: bold;
     color: #000000;
     margin: 30px 0;
