@@ -53,7 +53,7 @@ export const technicalData = {
         "imgAlt": "",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
-        データベースを使う際は主にMySqlを使用。基本的な操作はできる程度。Pythonを追加って操作することが多い。
+        データベースを使う際は主にMySqlを使用。基本的な操作はできる程度。Pythonで操作することが多い。
         </Description>)
     },
     "Flask": {

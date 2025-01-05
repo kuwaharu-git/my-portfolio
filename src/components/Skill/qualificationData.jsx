@@ -47,8 +47,8 @@ export const qualificationsData = {
         </DescriptionUl>
         関連記事
         <DescriptionUl>
-            <li><a href="https://note.com/kuwaharu/n/nfb23b38c2785">情報処理安全確保支援士試験受験報告(note)</a></li>
-            <li><a href="https://note.com/kuwaharu/n/n7cd3e8d12c9f">情報処理安全確保支援士試験合格報告(note)</a></li>
+            <li><a href="https://note.com/kuwaharu/n/n7cd3e8d12c9f">情報処理安全確保支援士試験受験報告(note)</a></li>
+            <li><a href="https://note.com/kuwaharu/n/nfb23b38c2785">情報処理安全確保支援士試験合格報告(note)</a></li>
         </DescriptionUl>
     </Description>)},
 };
