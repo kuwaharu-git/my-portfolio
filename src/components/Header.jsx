@@ -82,7 +82,8 @@ const Nav = styled.nav`
         gap: 15px;
     }
 `;
-const NavA = styled.a`
+
+const baseNavStyle =`
     color: white;
     text-decoration: none;
     font-size: 36px;
@@ -94,34 +95,18 @@ const NavA = styled.a`
     @media (max-width: 1057px) {
         font-size: 20px;
     }
+`;
+
+const NavA = styled.a`
+    ${baseNavStyle}
 `;
 
 const NavHashLink = styled(HashLink)`
-    color: white;
-    text-decoration: none;
-    font-size: 36px;
-
-    &:hover {
-        text-decoration: underline;
-    }
-
-    @media (max-width: 1057px) {
-        font-size: 20px;
-    }
+    ${baseNavStyle}
 `;
 
-const NavLink = styled(Link)`  // ここを Link に変更
-    color: white;
-    text-decoration: none;
-    font-size: 36px;
-
-    &:hover {
-        text-decoration: underline;
-    }
-
-    @media (max-width: 1057px) {
-        font-size: 20px;
-    }
+const NavLink = styled(Link)`
+    ${baseNavStyle}
 `;
 
 const MobileHeaderWrapper = styled.header`
