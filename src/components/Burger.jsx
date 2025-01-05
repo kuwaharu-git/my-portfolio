@@ -1,6 +1,7 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom'; 
+import { HashLink } from 'react-router-hash-link';
 
 class Burger extends React.Component {
   showSetting(event) {
@@ -10,15 +11,15 @@ class Burger extends React.Component {
   render() {
     return (
       <Menu width={'300px'} styles={styles} right>
-        <a id="menu-top" style={styles.bmItemListLink} href="/#top">
+        <HashLink id="menu-top" style={styles.bmItemListLink} to="/#top">
           TOP
-        </a>
-        <a id="menu-profile" style={styles.bmItemListLink} href="/#profile">
+        </HashLink>
+        <HashLink id="menu-profile" style={styles.bmItemListLink} to="/#profile">
           PROFILE
-        </a>
-        <a id="menu-journey" style={styles.bmItemListLink} href="/#journey">
+        </HashLink>
+        <HashLink id="menu-journey" style={styles.bmItemListLink} to="/#journey">
         JOURNEY
-        </a>
+        </HashLink>
         <Link id="menu-skill" style={styles.bmItemListLink} to="/skill">
         SKILL
         </Link>
