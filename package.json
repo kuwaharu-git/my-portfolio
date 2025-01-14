@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist --cname www.kuwaharu.com",
-    "build-and-update-404": "vite build && cp -f dist/index.html dist/404.html"
+    "build-and-deploy": "vite build && cp -f dist/index.html dist/404.html && cp -f dist/index.html public/404.html && gh-pages -d dist --cname www.kuwaharu.com"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
