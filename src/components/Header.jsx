@@ -33,7 +33,7 @@ export const DesktopHeader = () => {
                 <NavHashLink to="/#profile">Profile</NavHashLink>
                 <NavHashLink to="/#journey">Journey</NavHashLink>
                 <NavLink to="/skill">Skill</NavLink>
-                <NavHashLink to="/#study">Study</NavHashLink>
+                {/* <NavHashLink to="/#study">Study</NavHashLink> */}
                 <NavA href="https://tech.kuwaharu.com" target="_blank">Blog</NavA>
             </Nav>
         </HeaderWrapper>

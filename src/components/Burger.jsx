@@ -23,9 +23,9 @@ class Burger extends React.Component {
         <Link id="menu-skill" style={styles.bmItemListLink} to="/skill">
         SKILL
         </Link>
-        <a id="menu-study" style={styles.bmItemListLink} href="/#study">
+        {/* <a id="menu-study" style={styles.bmItemListLink} href="/#study">
         STUDY
-        </a>
+        </a> */}
         <a id="menu-blog" style={styles.bmItemListLink} href="https://tech.kuwaharu.com" target='_blank'>
         BLOG
         </a>
