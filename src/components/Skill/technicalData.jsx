@@ -20,6 +20,15 @@ export const technicalData = {
         専門学校で学習。一番よく使う言語。データ解析、Webアプリケーション開発、自動化など様々な用途で使用。
         </Description>)
     },
+    "TypeScript": {
+        "siteUrl": "https://www.typescriptlang.org/branding/",
+        "imgUrl": "/logo/ts-logo-256.png",
+        imgAlt: "TypeScript",
+        "description": (<Description>
+        スキルレベル: ★☆☆☆☆<br />
+        基礎レベル。そのうちこのサイトもTypeScriptで書き直す予定。
+        </Description>)
+    },
     "HTML": {
         "siteUrl": "https://www.w3.org/html/logo/",
         "imgUrl": "/logo/HTML5_Badge_128.png",
