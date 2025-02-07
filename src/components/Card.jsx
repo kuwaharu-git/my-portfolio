@@ -33,12 +33,11 @@ export const Card = ({title, siteUrl, imgUrl, igmAlt, description}) => {
 const CardWrapper = styled.li`
     // box-sizing: border-box;
     background-color: #FFFFFF;
-    border-radius: 30px;
-    width: 284px;
+    border-radius: 20px;
+    width: 100%;
     height: 450px;
     border: 8px solid #454E5A;
     list-style: none;
-    margin: 20px 45px 20px 0;
 `;
 
 const CardTitle = styled.h3`

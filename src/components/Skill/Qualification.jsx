@@ -2,7 +2,7 @@
 import styled from '@emotion/styled';
 import { Card } from '../Card';
 import { qualificationsData } from './qualificationData';
-import { TitleWrapper, CardsWrapper } from './skillCommonStyles';
+import { TitleWrapper, CardsListWrapper } from './skillCommonStyles';
 
 
 export const Qualification = () => {
@@ -11,11 +11,11 @@ export const Qualification = () => {
             <TitleWrapper>
             合格したIT関連試験
             </TitleWrapper>
-            <CardsWrapper>
+            <CardsListWrapper>
                 {Object.entries(qualificationsData).map(([title, contents], index) => (
                     <Card key={index} title={title} description={contents.description} />
                 ))}
-            </CardsWrapper>
+            </CardsListWrapper>
         </>
     );
 }
