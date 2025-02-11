@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled'
 import breakpoints from '../../breakpoints'; // ブレイクポイントをインポート
+import { motion } from "framer-motion";
 
 // タイムラインデータ
 const timelineData = [
@@ -27,6 +28,7 @@ export const Journey = () => {
             <EventsUL>
                 {/* タイムラインデータを動的に表示 */}
                 {timelineData.map((data, index) => (
+
                     <Eventli key={index}>
                         <YearMonth>
                             {/* 年と月を分割して表示 */}
@@ -34,7 +36,14 @@ export const Journey = () => {
                             <Month>{data.date.split('-')[1]}月</Month>
                         </YearMonth>
                         <Circle />
-                        <Content>{data.content}</Content>
+                        <motion.div
+                            initial={{ opacity: 0, x: '5%' }} // 初期状態（右に100pxずれて透明）
+                            whileInView={{ opacity: 1, x: 0 }} // 表示されたら左にスライドしてフェードイン
+                            transition={{ duration: 0.8, ease: "easeOut" }} // アニメーションの速度とイージング
+                            style={{ width: '60%', marginLeft: '5%' }}
+                        >
+                            <Content>{data.content}</Content>
+                        </motion.div>
                     </Eventli>
                 ))}
             </EventsUL>
@@ -161,7 +170,7 @@ const Content = styled.p`
     font-size: 36px; /* テキストサイズ */
     font-weight: bold;
     margin-left: 5%; /* 左の余白 */
-    width: 60%; /* テキストの幅を調整 */
+    width: 95%;
 
     // モバイル画面サイズ対応
     @media (max-width: ${breakpoints.mobile}) {
