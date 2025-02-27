@@ -16,8 +16,8 @@ const Skill = () => {
                     <TitleWrapper>
                         Skill
                     </TitleWrapper>
-                    <Qualification />
                     <Technical />
+                    <Qualification />
                 </SkillWrapper>
             </main>
             <Footer />

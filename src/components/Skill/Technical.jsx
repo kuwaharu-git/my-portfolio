@@ -9,7 +9,7 @@ export const Technical = () => {
     return (
         <>
             <TitleWrapper>
-            技術スキル
+            {/* 技術スキル */}
             </TitleWrapper>
             <CardsListWrapper>
                 {Object.entries(technicalData).map(([title, contents], index) => (
