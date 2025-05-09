@@ -128,6 +128,15 @@ export const technicalData = {
         コンテナ仮想化ツール。基礎的な仕組みの理解と、少しだけ操作ができる程度。
         </Description>)
     },
+    "AWS": {
+        "siteUrl": "https://aws.amazon.com/jp/architecture/icons/",
+        "imgUrl": "/logo/AWS-Cloud-logo_32.svg",
+        "imgAlt": "AWS",
+        "description": (<Description>
+        スキルレベル: ★☆☆☆☆<br />
+        クラウドサービス。基礎的な仕組みの理解と、EC2の起動やVPC作成など少しだけ操作ができる程度。
+        </Description>)
+    },
 };
 
 
