@@ -16,17 +16,3 @@ export const TitleWrapper = styled.h1`
       font-size: 30px;
     }
 `;
-
-export const CardsListWrapper = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);
-  gap: 40px;
-  list-style: none;
-  padding: 0;
-  justify-content: space-evenly; // 左右均等配置
-  max-width: 1400px;
-  margin: 0 auto;
-  @media (max-width: ${breakpoints.mobile}) {
-    grid-template-columns: repeat(auto-fit, 284px);
-  }
-`;
