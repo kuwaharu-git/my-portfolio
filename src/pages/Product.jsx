@@ -4,6 +4,9 @@ import styled from '@emotion/styled';
 import Header from '../components/Header';
 import { Footer } from '../components/Footer';
 import breakpoints from '../breakpoints';
+import { Card } from '../components/Card';
+import { productsData } from '../components/product/ProductData';
+import { CardsListWrapper } from '../components/Card';
 
 const Skill = () => {
     return (
@@ -14,6 +17,11 @@ const Skill = () => {
                     <TitleWrapper>
                         Product
                     </TitleWrapper>
+                    <CardsListWrapper>
+                        {Object.entries(productsData).map(([title, contents], index) => (
+                            <Card key={index} title={title} siteUrl={contents.siteUrl} imgUrl={contents.imgUrl} igmAlt={contents.imgAlt} description={contents.description} />
+                        ))}
+                    </CardsListWrapper>
                 </ProductWrapper>
             </main>
             <Footer />
