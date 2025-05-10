@@ -2,7 +2,8 @@
 import styled from '@emotion/styled';
 import { Card } from '../Card';
 import { qualificationsData } from './qualificationData';
-import { TitleWrapper, CardsListWrapper } from './skillCommonStyles';
+import { TitleWrapper} from './skillCommonStyles';
+import { CardsListWrapper } from '../Card';
 
 
 export const Qualification = () => {

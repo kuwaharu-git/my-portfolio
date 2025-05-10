@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
+import breakpoints from '../breakpoints';
 
 // 説明文のスタイル
 export const Description = styled.div`
@@ -60,10 +61,23 @@ const Delimiter = styled.hr`
 `;
 
 const CardImage = styled.img`
-    width: 134px;
+    width: 90%;
     height: 134px;
     display: block;
     margin: 0 auto;
     object-fit: contain;
 `;
 
+export const CardsListWrapper = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly; // 左右均等配置
+  max-width: 1400px;
+  margin: 0 auto;
+  @media (max-width: ${breakpoints.mobile}) {
+    grid-template-columns: repeat(auto-fit, 284px);
+  }
+`;
