@@ -61,7 +61,7 @@ const Delimiter = styled.hr`
 `;
 
 const CardImage = styled.img`
-    width: 134px;
+    width: 90%;
     height: 134px;
     display: block;
     margin: 0 auto;
