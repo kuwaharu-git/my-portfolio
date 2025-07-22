@@ -1,10 +1,11 @@
 import { Description, DescriptionUl } from "../Card";
+import { getImagePath } from "../../utils/paths";
 
 
 export const technicalData = {
     "JavaScript": {
         "siteUrl": "https://github.com/voodootikigod/logo.js/",
-        "imgUrl": "/logo/js.jpg",
+        "imgUrl": getImagePath("/logo/js.jpg"),
         "imgAlt": "JavaScript",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -13,7 +14,7 @@ export const technicalData = {
     },
     "Python": {
         "siteUrl": "https://www.python.org/community/logos/",
-        "imgUrl": "/logo/python-logo-only.png",
+        "imgUrl": getImagePath("/logo/python-logo-only.png"),
         "imgAlt": "Python",
         "description": (<Description>
         スキルレベル: ★★★☆☆<br />
@@ -22,7 +23,7 @@ export const technicalData = {
     },
     "TypeScript": {
         "siteUrl": "https://www.typescriptlang.org/branding/",
-        "imgUrl": "/logo/ts-logo-256.png",
+        "imgUrl": getImagePath("/logo/ts-logo-256.png"),
         imgAlt: "TypeScript",
         "description": (<Description>
         スキルレベル: ★☆☆☆☆<br />
@@ -31,7 +32,7 @@ export const technicalData = {
     },
     "HTML": {
         "siteUrl": "https://www.w3.org/html/logo/",
-        "imgUrl": "/logo/HTML5_Badge_128.png",
+        "imgUrl": getImagePath("/logo/HTML5_Badge_128.png"),
         "imgAlt": "HTML",
         "description": (<Description>
         スキルレベル: ★★★☆☆<br />
@@ -40,7 +41,7 @@ export const technicalData = {
     },
     "CSS": {
         "siteUrl": "https://commons.wikimedia.org/wiki/File:CSS3_logo.svg",
-        "imgUrl": "logo/CSS3_logo.svg.png",
+        "imgUrl": getImagePath("logo/CSS3_logo.svg.png"),
         "imgAlt": "CSS",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -49,7 +50,7 @@ export const technicalData = {
     },
     "Linux" : {
         "siteUrl": "https://isc.tamu.edu/~lewing/linux/",
-        "imgUrl": "logo/sit3-shine.7.gif",
+        "imgUrl": getImagePath("logo/sit3-shine.7.gif"),
         "imgAlt": "Linux",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -58,7 +59,7 @@ export const technicalData = {
     },
     "Mysql": {
         "siteUrl": "https://www.mysql.com/about/legal/logos.html",
-        "imgUrl": "/logo/powered-by-mysql-125x64.png",
+        "imgUrl": getImagePath("/logo/powered-by-mysql-125x64.png"),
         "imgAlt": "",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -67,7 +68,7 @@ export const technicalData = {
     },
     "Flask": {
         "siteUrl": "https://msiz07-flask-docs-ja.readthedocs.io/ja/latest/index.html",
-        "imgUrl": "/logo/flask-icon.webp",
+        "imgUrl": getImagePath("/logo/flask-icon.webp"),
         "imgAlt": "Flask",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -76,7 +77,7 @@ export const technicalData = {
     },
     "Django": {
         "siteUrl": "https://www.djangoproject.com/community/logos/",
-        "imgUrl": "/logo/django-logo-positive.png",
+        "imgUrl": getImagePath("/logo/django-logo-positive.png"),
         "imgAlt": "Django",
         "description": (<Description>
         スキルレベル: ★☆☆☆☆<br />
@@ -85,7 +86,7 @@ export const technicalData = {
     },
     "FastAPI": {
         "siteUrl": "https://fastapi.tiangolo.com/ja/",
-        "imgUrl": "/logo/logo-teal.png",
+        "imgUrl": getImagePath("/logo/logo-teal.png"),
         "imgAlt": "FastAPI",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -94,7 +95,7 @@ export const technicalData = {
     },
     "React": {
         "siteUrl": "https://github.com/facebook/react/blob/cae635054e17a6f107a39d328649137b83f25972/fixtures/dom/public/react-logo.svg",
-        "imgUrl": "/logo/react-logo.svg",
+        "imgUrl": getImagePath("/logo/react-logo.svg"),
         "imgAlt": "React",
         "description": (<Description>
         スキルレベル: ★★☆☆☆<br />
@@ -103,7 +104,7 @@ export const technicalData = {
     },
     "Next.js": {
         "siteUrl": "https://vercel.com/geist/brands#next-js",
-        "imgUrl": "/logo/nextjs-logotype-light-background.png",
+        "imgUrl": getImagePath("/logo/nextjs-logotype-light-background.png"),
         "imgAlt": "Next.js",
         "description": (<Description>
         スキルレベル: ★☆☆☆☆<br />
@@ -112,7 +113,7 @@ export const technicalData = {
     },
     "Git": {
         "siteUrl": "https://git-scm.com/downloads/logos",
-        "imgUrl": "/logo/Git-Icon-1788C.png",
+        "imgUrl": getImagePath("/logo/Git-Icon-1788C.png"),
         "imgAlt": "Git",
         "description": (<Description>
         スキルレベル: ★★★☆☆<br />
@@ -121,7 +122,7 @@ export const technicalData = {
     },
     "Docker": {
         "siteUrl": "https://www.docker.com/company/newsroom/media-resources/",
-        "imgUrl": "/logo/docker-mark-blue.png",
+        "imgUrl": getImagePath("/logo/docker-mark-blue.png"),
         "imgAlt": "Docker",
         "description": (<Description>
         スキルレベル: ★☆☆☆☆<br />
@@ -130,7 +131,7 @@ export const technicalData = {
     },
     "AWS": {
         "siteUrl": "https://aws.amazon.com/jp/architecture/icons/",
-        "imgUrl": "/logo/AWS-Cloud-logo_32.svg",
+        "imgUrl": getImagePath("/logo/AWS-Cloud-logo_32.svg"),
         "imgAlt": "AWS",
         "description": (<Description>
         スキルレベル: ★☆☆☆☆<br />

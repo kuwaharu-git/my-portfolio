@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Burger from './Burger';
 import { Link } from 'react-router-dom'; // Link は NavLink と同じように使えるが、NavLink を利用します
 import { HashLink } from 'react-router-hash-link';
+import { getImagePath } from '../utils/paths';
 
 // メインコンポーネント
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
 export const DesktopHeader = () => {
     return (
         <HeaderWrapper>
-            <ImageIcon src="/icon.svg" alt='icon image'/>
+            <ImageIcon src={getImagePath('/icon.svg')} alt='icon image'/>
             <Nav>
                 <NavHashLink to="/#top">Top</NavHashLink>
                 <NavHashLink to="/#profile">Profile</NavHashLink>
@@ -45,7 +46,7 @@ export const DesktopHeader = () => {
 export const MobileHeader = () => {
     return (
         <MobileHeaderWrapper>
-            <MobileIconImage src="/icon.svg" alt='icon image'/>
+            <MobileIconImage src={getImagePath('/icon.svg')} alt='icon image'/>
             <Burger />
         </MobileHeaderWrapper>
     );

@@ -6,7 +6,7 @@ import Product from './pages/Product';  // Product.jsx をインポート
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="App">
         {/* ルートパス '/' で Index コンポーネントを表示 */}
         <Routes>

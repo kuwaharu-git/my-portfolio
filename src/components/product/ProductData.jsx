@@ -1,10 +1,11 @@
 import { Description, DescriptionUl } from "../Card";
+import { getImagePath } from "../../utils/paths";
 
 
 export const productsData = {
     "ポートフォリオサイト": {
         "siteUrl": "https://www.kuwaharu.com",
-        "imgUrl": "/product/portfolio.png",
+        "imgUrl": getImagePath("/product/portfolio.png"),
         "imgAlt": "ポートフォリオサイト",
         "description":
             (<Description>
@@ -14,7 +15,7 @@ export const productsData = {
     },
     "イベントカウントダウンbot": {
         "siteUrl": "https://github.com/kuwaharu-git/date-countdown-bot",
-        "imgUrl": "/product/count_down.png",
+        "imgUrl": getImagePath("/product/count_down.png"),
         "imgAlt": "Discord count down bot",
         "description":
             (<Description>
@@ -24,7 +25,7 @@ export const productsData = {
     },
     "気象警報bot": {
         "siteUrl": "https://github.com/kuwaharu-git/DiscordWeatherNotifier",
-        "imgUrl": "/product/weather_alert.png",
+        "imgUrl": getImagePath("/product/weather_alert.png"),
         "imgAlt": "Discord weather alert bot",
         "description":
             (<Description>
@@ -34,7 +35,7 @@ export const productsData = {
     },
     "LiveFx": {
         "siteUrl": null,
-        "imgUrl": "/product/no_image.png",
+        "imgUrl": getImagePath("/product/no_image.png"),
         "imgAlt": "no image",
         "description":
             (<Description>
