@@ -1,13 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import styled from '@emotion/styled';
 import breakpoints from '../../breakpoints';
+import { getImagePath } from '../../utils/paths';
 
 export const Profile = () => {
     return (
         <ProfileWrapper id='profile'>
             <Title>About me</Title>
             <Contents>
-                <ImageIcon src='/icon.svg' alt='icon image'></ImageIcon>
+                <ImageIcon src={getImagePath('/icon.svg')} alt='icon image'></ImageIcon>
                 <Sentence>システムエンジニアになるために色々勉強中の学生です。主に使用している言語はPythonで、Fast APIやDjangoを使用したバックエンド開発、ドローンの自立飛行、OR-Toolsを使用したシフト自動作成など色々チャレンジしています。他にもReactを使用したフロントエンド開発、LinuxやAWSなどのインフラ系なども学習しています。</Sentence>
             </Contents>
             <SnsUl>
